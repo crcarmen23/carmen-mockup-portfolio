@@ -1,25 +1,23 @@
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 20px 20px 0;
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: #303538;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-header h1 {
-    color: #f4f6f3;
-    background-color: rgb(122, 188, 210)
+    color:#303538;
+    background-color: rgb(122, 188, 210);
+    padding-left: 25px;
 }
 
 nav {
     padding-top: 10px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
 
@@ -36,14 +34,37 @@ a {
     color: rgb(122, 188, 210);
     text-decoration: none;
     text-decoration-line: underline;
-    text-underline-position: below;
+    text-underline-position: auto;
 }
 
-.hero {
+.hero-image {
     height: 180px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url(../images/building.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+.hero-text {
+    text-align: right;
+    font-size: x-large;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    background-color: rgb(122, 188, 210);
+    padding: 10px 10px 10px 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:#303538;
+    display: inline;
+}
+
+.aboutme, .work, .contactme {
+    color:#303538;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+p {
+    color:#303538;
+    font-family: 'Trebuchet MS', sans-serif;
 }
