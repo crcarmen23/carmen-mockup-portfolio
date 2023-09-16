@@ -11,6 +11,7 @@ header h1 {
     color:#303538;
     background-color: rgb(122, 188, 210);
     padding-left: 25px;
+    padding-right: 5px;
 }
 
 nav {
@@ -48,7 +49,7 @@ a {
 }
 .hero-text {
     text-align: right;
-    font-size: x-large;
+    font-size: 30px;
     position: absolute;
     bottom: 10px;
     right: 50px;
@@ -62,7 +63,7 @@ a {
 .aboutme, .work, .contactme {
     color:#303538;
     font-family:'Trebuchet MS', sans-serif;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 p {
@@ -74,4 +75,32 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+.project1, .project2, .project3, .project4, .project5 {
+    margin: 0 50px 10px 520px;
+    border: 10px 10px 10px 10px rgb(122, 188, 210);
+    display: flex;
+    flex-direction: row;
+}
+
+.project1 {
+    height: 380px;
+    width: 700px;
+}
+
+.project2, .project3, .project4, .project5 {
+    height: 190px;
+    width: 350px;
+}
+
+#contactmelist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 0 50px 10px 500px;
+    list-style-type: none;
+    text-decoration: underline;
 }
