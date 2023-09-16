@@ -38,7 +38,7 @@ a {
 }
 
 .hero-image {
-    height: 180px;
+    height: 190px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(../images/building.jpg);
@@ -62,9 +62,16 @@ a {
 .aboutme, .work, .contactme {
     color:#303538;
     font-family:'Trebuchet MS', sans-serif;
+    font-size: 35px;
 }
 
 p {
     color:#303538;
     font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 50px 10px 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
