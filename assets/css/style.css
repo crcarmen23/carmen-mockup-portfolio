@@ -72,41 +72,46 @@ aside {
 }
 article { 
     flex-basis: 80%;
-    align-content: center;
 }
 p {
     color:#303538;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-img {
-    padding: 12px 12px 12px 12px;
-    border: 5px 5px 5px 5px solid rgb(122, 188, 210);
+    padding-left: 5%;
 }
 
 #title{
     text-align: right;
 }
 
-.project1 {
-    height: 380px;
-    width: 700px;
+.project1-image {
+    background-image: url(../images/nyc\ building.png);
+    background-size: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
-.project2, .project3, .project4, .project5 {
-    height: 190px;
-    width: 350px;
+.project2-image {
+    background-image: url(../images/geometric\ design.png);
+}
+
+.project3-image {
+    background-image: url(../images/rome\ colosseum.png);
+}
+
+.project4-image {
+    background-image: url(../images/hot\ air\ balloons.png);
+}
+
+.project5-image {
+    background-image: url(../images/sand\ dunes.png);
 }
 
 #contactmelist {
     font-size: 20px;
     list-style-type: none;
     text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
