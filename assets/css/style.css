@@ -64,24 +64,35 @@ a {
     color:#303538;
     font-family:'Trebuchet MS', sans-serif;
     font-size: 32px;
+    display: flex;
 }
-
+aside {
+    flex-basis: 20%;
+    border-right: #303538;
+}
+article { 
+    flex-basis: 80%;
+    align-content: center;
+}
 p {
     color:#303538;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    text-align: justify;
-    margin: 0px 50px 10px 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
-.project1, .project2, .project3, .project4, .project5 {
-    margin: 0 50px 10px 520px;
-    border: 10px 10px 10px 10px rgb(122, 188, 210);
+.work {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    padding: 12px 12px 12px 12px;
+    border: 5px 5px 5px 5px solid rgb(122, 188, 210);
+}
+
+#title{
+    text-align: right;
 }
 
 .project1 {
@@ -95,12 +106,7 @@ p {
 }
 
 #contactmelist {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     font-size: 20px;
-    margin: 0 50px 10px 500px;
     list-style-type: none;
     text-decoration: underline;
 }
