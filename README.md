@@ -1,1 +1,26 @@
-# carmen-mockup-portfolio
+# Carmen's Mockup Portfolio
+
+## Description
+
+Created code from scratch for a mockup of a potential portfolio for Carmen Regina including a section about her, 5 previous work examples, and information to contact Carmen further.
+
+## Installation
+
+N/A
+
+## Usage
+
+This website can be used to read about Carmen Regina, view 5 previous work examples, and receive her contact information.
+
+[Link to Carmen Mockup Portfolio webpage](https://crcarmen23.github.io/horiseon-accessibility-refactor/)
+
+![screenshot](assets/images/screenshot.png)
+
+
+## Credits
+
+Collaborated with Leif Hetland and coding bootcamp peers during office hours.
+
+## License
+
+Please refer to the LICENSE in the repo.

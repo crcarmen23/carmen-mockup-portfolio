@@ -66,12 +66,30 @@ a {
     font-size: 32px;
     display: flex;
 }
+
+.aboutme{
+    text-align: left;
+}
+
+.work, .contactme {
+    text-align: center;
+}
+
 aside {
     flex-basis: 20%;
-    border-right: #303538;
+    border-right: 5px solid #303538;
+    margin: 30px 30px 30px 30px;
 }
 article { 
     flex-basis: 80%;
+}
+
+article:hover{
+    background-color: rgb(209, 214, 215);
+}
+
+.project1-image:hover, .project2-image:hover, .project3-image:hover, .project4-image:hover, .project5-image:hover {
+    -webkit-filter: brightness(80%);
 }
 p {
     color:#303538;
@@ -82,13 +100,14 @@ p {
 
 #title{
     text-align: right;
+    padding-right: 40px;
 }
 
 .project1-image {
     background-image: url(../images/nyc\ building.png);
-    background-size: 10%;
-    padding-left: 30%;
-    padding-right: 30%;
+    height: 350px;
+    width: 650px;
+    background-size: 660px;
 }
 
 .project2-image {
@@ -107,6 +126,26 @@ p {
     background-image: url(../images/sand\ dunes.png);
 }
 
+.project2-image, .project3-image, .project4-image, .project5-image {
+height: 200px;
+width: 450px;
+background-size: 670px;
+}
+
+.project1-image, .project2-image, .project3-image, .project4-image, .project5-image {
+    border:10px solid rgb(122, 188, 210);
+    text-align: left;
+    margin: 10px;
+    padding: 10px 10px 10px 0px;
+    display: inline-flex;
+    align-content: end;
+    flex-wrap: wrap;
+}
+#project1-text, #project2-text, #project3-text, #project4-text, #project5-text {
+    text-align: left;
+    background-color: rgb(122, 188, 210);
+    padding: 5px 10px 5px 20px;
+}
 #contactmelist {
     font-size: 20px;
     list-style-type: none;
@@ -114,4 +153,5 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 95px;
 }
