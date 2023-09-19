@@ -12,7 +12,7 @@ N/A
 
 This website can be used to read about Carmen Regina, view 5 previous work examples, and receive her contact information.
 
-[Link to Carmen Mockup Portfolio webpage](https://crcarmen23.github.io/horiseon-accessibility-refactor/)
+[Link to Carmen's Mockup Portfolio webpage](https://crcarmen23.github.io/carmen-mockup-portfolio/)
 
 ![screenshot](assets/images/screenshot.png)
 
