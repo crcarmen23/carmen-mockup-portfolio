@@ -88,6 +88,15 @@ article:hover{
     background-color: rgb(209, 214, 215);
 }
 
+img {
+    height: 200px;
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
 .project1-image:hover, .project2-image:hover, .project3-image:hover, .project4-image:hover, .project5-image:hover {
     -webkit-filter: brightness(80%);
 }
