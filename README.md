@@ -14,7 +14,7 @@ This website can be used to read about Carmen Regina, view 5 previous work examp
 
 [Link to Carmen's Mockup Portfolio webpage](https://crcarmen23.github.io/carmen-mockup-portfolio/)
 
-![screenshot](assets/images/screenshot.png)
+![screenshot](assets/images/screenshot2.png)
 
 
 ## Credits
