@@ -27,7 +27,8 @@ header ul {
 }
 
 header ul li {
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
     margin-left: 25px;
 }
 
